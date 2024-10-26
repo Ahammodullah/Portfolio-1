@@ -92,7 +92,7 @@ function Product() {
             </p>
           </div>
         </div>
-        <div className="flex gap-4 ml-[400px]">
+        <div className="flex gap-4 ml-[490px]">
           <img src={img7} alt="" className="bg-slate-200 rounded-full" />
           <img src={img8} alt="" className="bg-slate-200 rounded-full" />
         </div>
@@ -101,15 +101,16 @@ function Product() {
 
       <ProductSlider products={products} />
 <div className="flex justify-center items-center my-5">
-<button className="bg-red-600 w-[234px] h-[56px] rounded text-white hover:bg-blue-500 duration-500">View All Products</button>
+<button className="bg-[#DB4444] w-[234px] h-[56px] rounded text-white hover:bg-blue-500 duration-500">View All Products</button>
 
 </div>
 
 
 <div className="flex items-center gap-1 mt-20 ml-36">
-        <div className="w-[20px] h-[40px] bg-red-500 ml-4 rounded"></div>
-        <div className="text-[12px] text-red-500">Categories</div>
+        <div className="w-[20px] h-[40px] bg-[#DB4444] ml-4 rounded"></div>
+        <div className="text-[12px] text-[#DB4444]">Categories</div>
       </div>
+
     </>
   );
 }

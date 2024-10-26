@@ -9,9 +9,14 @@ import img4 from "./image/Cart1 with buy (1).png";
 import img5 from "./image/logo1.png";
 import img6 from "./image/Vector (3).png";
 import Product from "./Product";
+import Category from "./components/Category";
+import BestSellingProducts from "./components/BestSellingProducts";
+
+
 
 function App() {
   const [count, setCount] = useState(0);
+
 
   return (
     <>
@@ -118,7 +123,11 @@ Poppins]"
       </div>
 
       <Product />
-    </>
+      <Category/>
+      <BestSellingProducts/>
+
+        
+           </>
   );
 }
 export default App;

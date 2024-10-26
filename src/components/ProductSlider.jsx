@@ -1,14 +1,13 @@
 import img13 from "../image/Vector.svg";
 
-function ProductSlider({ products }) {
+function ProductSlider({ products,sells }) {
   return (
     <div className="flex gap-4 justify-center items-center my-10">
       {products.map((product, index) => (
         <div key={index} className="">
-          
            <div className="bg-slate-100 w-[270px] h-[250px] ">
              <div className="flex justify-between">
-            <div className="w-[55px] h-[26px] bg-red-500 ml-4 rounded mt-2 text-white flex items-center justify-center text-[12px]">
+            <div className="w-[55px] h-[26px] bg-[#DB4444] ml-4 rounded mt-2 text-white flex items-center justify-center text-[12px]">
             
                 {product.discount}%
                 
